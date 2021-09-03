@@ -72,6 +72,12 @@ section {
     text-decoration: line-through;
 }
 
+.nosale{
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
+}
+
 .overlay{
     width: 100%;
     position: absolute;
