@@ -2,30 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Azeret Mono', monospace;
 }
 
 section {
     padding: 28px 0;
+    display: inline;
 }
   
 .container {
     width: 920px;
     margin: 0 auto;
     padding: 0 14px;
-  }
+}
   
 .products-container {
-    background-color: rgba(224, 224, 66, 0.76);
+    background-color: white;
     min-height: 250px;
+    word-spacing: 15px;
+   
 }
   
   .product {
-    width: 33%;
-    background-color: rgb(255, 250, 250);
+    width: calc(100% / 3 - 30px);
+    background-color: white;
     position: relative;
-    display: inline-block;
     top: 10px;
     margin-bottom: 15px;
+    display: inline-block;
+    word-spacing: normal;
   }
   
   .product img {
